@@ -1,0 +1,25 @@
+﻿<ObjectRepository>
+  <FeatureSet type='' name='Oppurtunity'>
+    <element type='' name='LoginPageHeader'>
+      <xpath>//h2[text()='User Login']</xpath>
+    </element>
+    <element type='' name='username'>
+      <xpath>//input[@name='Email']</xpath>
+    </element>
+    <element type='' name='Password'>
+      <xpath>//input[@name='Password']</xpath>
+    </element>
+    <element type='' name='Login'>
+      <xpath>//*[@value='Log in']</xpath>
+    </element>
+    <element type='' name='LoginLink'>
+      <xpath>//*[@id='loginLink']</xpath>
+    </element>
+    <element type='' name='search'>
+      <xpath>//*[@id='lst-ib']</xpath>
+    </element>
+    <element type='' name='HomeLabel'>
+      <xpath>//a[text()='HOME']</xpath>
+    </element>
+  </FeatureSet>
+</ObjectRepository>
